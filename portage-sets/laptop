@@ -1,0 +1,8 @@
+# TLP
+sys-power/tlp
+
+# Linux Thernal Daemon
+sys-power/thermald
+
+# Laptop Mode Tools
+app-laptop/laptop-mode-tools

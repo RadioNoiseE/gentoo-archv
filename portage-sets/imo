@@ -1,0 +1,11 @@
+# Flexible Context-aware Input Tool with eXtension support
+app-i18n/fcitx
+
+# Configuration Tools
+app-i18n/fcitx-configtool
+
+# Chinese
+app-i18n/fcitx-libpinyin
+
+# Japanese
+app-i18n/fcitx-anthy

@@ -1,0 +1,5 @@
+# QEMU
+app-emulation/qemu
+
+# Virtualization Assist
+app-emulation/libvirt

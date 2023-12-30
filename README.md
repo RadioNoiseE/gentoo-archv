@@ -1,2 +1,3 @@
 # gentoo-archv
-Configuration Files.
+
+Configuration files for my Gentoo Linux.

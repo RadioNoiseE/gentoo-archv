@@ -1,0 +1,8 @@
+# Chess Engine
+games-board/stockfish
+
+# Chess Frontend
+games-board/xboard
+
+# Translator
+games-board/polyglot

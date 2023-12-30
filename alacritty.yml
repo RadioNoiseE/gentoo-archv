@@ -1,0 +1,53 @@
+font:
+  normal:
+    family: monospace
+    style: Regular
+  bold:
+    family: monospace
+    style: Bold
+  italic:
+    family: monospace
+    style: Italic
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+  size: 6.6
+
+colors:
+  primary:
+    background: '#181616'
+    foreground: '#c5c9c5'
+# cursor:
+#   text: '#575279'
+#   cursor: '#cecacd'
+# vi_mode_cursor:
+#   text: '#575279'
+#   cursor: '#cecacd'
+  selection:
+    text: '#c8c093'
+    background: '#2d4f67'
+  normal:
+    black: '#0d0c0c'
+    red: '#c4746e'
+    green: '#8a9a7b'
+    yellow: '#c4b28a'
+    blue: '#8ba4b0'
+    magenta: '#a292a3'
+    cyan: '#8ea4a2'
+    white: '#C8C093'
+  bright:
+    black: '#a6a69c'
+    red: '#E47876'
+    green: '#87a987'
+    yellow: '#E6C384'
+    blue: '#7FB4CA'
+    magenta: '#938AA9'
+    cyan: '#7AA89F'
+    white: '#c5c9c5'
+# hints:
+#   start:
+#     foreground: '#797593'
+#     background: '#fffaf3'
+#   end:
+#     foreground: '#9893a5'
+#     background: '#fffaf3'

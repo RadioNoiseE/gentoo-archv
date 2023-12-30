@@ -1,0 +1,30 @@
+# X-Org Daemon
+x11-base/xorg-server
+
+# Intel DDX (Legacy)
+x11-drivers/xf86-video-intel
+
+# XMonad Windows Manager
+x11-wm/xmonad
+x11-wm/xmonad-contrib
+
+# Screenshot
+media-gfx/scrot
+
+# Application Launcher and More
+x11-misc/rofi
+
+# Status Bar
+x11-misc/xmobar
+
+# Compositor
+x11-misc/picom
+
+# Lock Screen
+x11-misc/slock
+
+# Terminal Default
+x11-terms/alacritty
+
+# Background Image
+media-gfx/feh

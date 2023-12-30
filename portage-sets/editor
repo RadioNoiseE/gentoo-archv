@@ -1,0 +1,17 @@
+# Vi IMproved
+app-editors/vim
+
+# Ctags support
+dev-util/ctags
+
+# Coc.nvim's dependencies
+net-libs/nodejs
+
+# Emacs
+app-editors/emacs
+
+# PDF Tools
+app-emacs/pdf-tools
+
+# OpenCC for Emacs
+app-i18n/opencc

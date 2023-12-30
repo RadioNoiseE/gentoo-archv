@@ -1,0 +1,16 @@
+# Backend
+net-wireless/iwd
+
+# Frontend
+net-misc/connman
+net-misc/connman-gtk
+
+# Proxy Support
+net-vpn/openconnect
+
+# Transfer Datum
+net-misc/curl
+dev-vcs/git
+
+# Bit Torrent
+net-misc/aria2
