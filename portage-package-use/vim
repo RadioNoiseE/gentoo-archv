@@ -1,0 +1,17 @@
+app-editors/vim X acl crypt gpm nls sound lua perl python ruby tcl terminal vim-pager
+# required by app-emulation/libvirt-9.4.0-r4::gentoo[virt-network]
+# required by dev-python/libvirt-python-9.4.0::gentoo
+>=net-dns/dnsmasq-2.89-r1 script
+# required by app-crypt/swtpm-0.8.0-r2::gentoo
+# required by app-emulation/libvirt-9.4.0-r4::gentoo[qemu]
+# required by dev-python/libvirt-python-9.4.0::gentoo
+>=net-libs/gnutls-3.8.0 tools pkcs11
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test,gui]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.42-r3 usbredir
+# required by dev-texlive/texlive-xetex-2021-r1::gentoo
+# required by dev-texlive/texlive-formatsextra-2021::gentoo
+# required by app-text/texlive-2021-r1::gentoo[-extra,xml]
+# required by app-office/lyx-2.3.7::gentoo[latex]
+# required by lyx (argument)
+>=app-text/texlive-core-2021-r7 xetex
