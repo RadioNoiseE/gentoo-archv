@@ -28,7 +28,7 @@ conf = def
      }
   `additionalKeysP`
      [ ("M-S-z",           spawn "slock")                                                          -- Lock the screen
-     , ("M-C-s", unGrab *> spawn "scrot -s")                                                       -- Screenshot functionality
+     , ("M-C-s", unGrab *> spawn "scrot -s --quality 100 -e \'mv $f ~/Images/\'")                  -- Screenshot functionality
      , ("M-S-l",           spawn "rofi -config ~/.rofirc -show drun")                              -- Spotlight
      , ("<XF86AudioLowerVolume>" , unGrab *> spawn "pactl set-sink-volume @DEFAULT_SINK@ -1000")   -- Decrease volume
      , ("<XF86AudioRaiseVolume>" , unGrab *> spawn "pactl set-sink-volume @DEFAULT_SINK@ +1000")   -- Increase volume
@@ -47,10 +47,10 @@ xinit = do
 myLayout = tiled ||| Mirror tiled ||| Full ||| threeCol
        where
          threeCol = magnifiercz' 1.3 $ ThreeColMid nmaster delta ratio
-	 tiled    = Tall nmaster delta ratio
-	 nmaster  = 1      -- Default number of windows in the master pane
-	 ratio    = 1/2    -- Default proportion of the screen occupied by master pane
-	 delta    = 2/100  -- Percent of screen to increment by when resizing panes
+         tiled    = Tall nmaster delta ratio
+         nmaster  = 1      -- Default number of windows in the master pane
+         ratio    = 1/2    -- Default proportion of the screen occupied by master pane
+         delta    = 2/100  -- Percent of screen to increment by when resizing panes
 
 myXmobarPP :: PP
 myXmobarPP = def
@@ -67,7 +67,7 @@ myXmobarPP = def
            formatFocused   = wrap (white    "[") (white    "]") . red  . ppWindow
            formatUnfocused = wrap (lowWhite "[") (lowWhite "]") . cyan . ppWindow
            ppWindow :: String -> String
-           ppWindow = xmobarRaw . (\w -> if null w then "untitled" else w) . shorten 30
+           ppWindow = xmobarRaw . (\w -> if null w then "untitled" else w) . shorten 20
            blue, lowWhite, magenta, red, white, yellow, green, cyan :: String -> String
            magenta  = xmobarColor "#a292a3" ""
            blue     = xmobarColor "#8ba4b0" ""
@@ -80,6 +80,7 @@ myXmobarPP = def
 
 myManageHook :: ManageHook
 myManageHook = composeAll
-             [ isDialog           --> doFloat
-             , className =? "mpv" --> doFloat
+             [ isDialog                 --> doFloat
+             , className =? "mpv"       --> doFloat
+             , className =? "fontforge" --> doFloat
              ]

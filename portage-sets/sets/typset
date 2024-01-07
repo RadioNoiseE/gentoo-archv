@@ -1,0 +1,11 @@
+# TeXLive Distribution
+app-text/texlive
+
+# Document Format and Markup Language Conversation
+app-text/pandoc
+
+# XML Processing
+dev-libs/libxslt
+
+# Font Creater
+media-gfx/fontforge

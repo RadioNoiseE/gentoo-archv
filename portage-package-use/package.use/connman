@@ -1,0 +1,1 @@
+net-misc/connman iwd nftables policykit wifi openconnect -bluetooth -ethernet -networkmanager

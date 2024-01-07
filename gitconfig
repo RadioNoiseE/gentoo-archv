@@ -1,0 +1,7 @@
+[credential]
+	helper = cache
+[user]
+	email = j18516785606@icloud.com
+	name = RadioNoiseE
+[core]
+	editor = emacs

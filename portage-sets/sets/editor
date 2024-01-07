@@ -1,0 +1,14 @@
+# Tape Editor and COrrector
+app-editors/teco
+
+# Ctags support
+dev-util/ctags
+
+# Emacs
+app-editors/emacs
+
+# PDF Tools
+app-emacs/pdf-tools
+
+# OpenCC for Emacs
+app-i18n/opencc

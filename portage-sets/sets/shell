@@ -1,0 +1,6 @@
+# Interactive Login Shell
+app-shells/zsh
+
+# Auto Completions
+app-shells/zsh-completions
+app-shells/gentoo-zsh-completions

@@ -1,0 +1,5 @@
+# Boot Splash
+sys-boot/plymouth
+
+# OpenRC Integration
+sys-boot/plymouth-openrc-plugin

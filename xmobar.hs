@@ -1,9 +1,11 @@
 Config { overrideRedirect = False
-       , font     = "xft:iosevka-11.6:antialias=ture,notoSansMonoCJKjp-11.3"
+       , font     = "xft:IBM3270-13.2:antialias=ture,notoSansMonoCJKjp-11.6"
        , additionalFonts = [ "xft:notoSansMonoCJKjp-10" ]
        , bgColor  = "#5f5f5f"
        , fgColor  = "#f8f8f2"
        , position = TopW L 100
+       , persistent  = False
+       , hideOnStart = False
        , commands = [ Run MultiCpu
                         [ "--template" , "Cpu: <total0>:<total1>%"
                         , "--Low"      , "50"
@@ -45,5 +47,5 @@ Config { overrideRedirect = False
                     ]
        , sepChar  = "%"
        , alignSep = "}{"
-       , template = "%XMonadLog% }{ %alsa:default:Master% <fc=#8ba4b0>•</fc> %battery% <fc=#8ba4b0>•</fc> %multicpu% <fc=#8ba4b0>•</fc> %memory% <fc=#8ba4b0>•</fc> %swap% <fc=#8ba4b0>•</fc> %date% "
+       , template = "%XMonadLog% }{ %alsa:default:Master% <fc=#8ba4b0>•</fc> %battery% <fc=#8ba4b0>•</fc> %multicpu% <fc=#8ba4b0>•</fc> %memory% <fc=#8ba4b0>•</fc> %date% "
        }

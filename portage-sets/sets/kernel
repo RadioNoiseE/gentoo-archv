@@ -1,0 +1,17 @@
+# Linux Firmware
+sys-kernel/linux-firmware
+
+# Sound Open Firmware
+sys-firmware/sof-firmware
+
+# Kernel
+sys-kernel/gentoo-sources
+
+# Genkernel Utility
+sys-kernel/genkernel
+
+# Initramfs Generate
+sys-kernel/dracut
+
+# Do As
+app-admin/doas

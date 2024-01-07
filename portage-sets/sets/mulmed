@@ -1,0 +1,16 @@
+# ALSA and Pulseaudio
+media-libs/alsa-lib
+media-sound/alsa-utils
+media-sound/pulseaudio
+
+# Output Control
+media-sound/pavucontrol
+
+# Multimedia Support
+media-video/mpv
+
+# En(De)coder
+media-video/ffmpeg
+
+# Streaming Support
+net-misc/yt-dlp
