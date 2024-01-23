@@ -1,0 +1,8 @@
+# Input Method For Chinese and Japanese
+
+app-i18n/fcitx:5
+app-i18n/fcitx-gtk:5
+
+app-i18n/fcitx-rime:5
+
+app-i18n/fcitx-configtool:5

@@ -1,0 +1,6 @@
+# Enviroment Including Shell and Admin Tools
+
+app-shells/bash
+app-shells/bash-completion
+
+app-admin/doas

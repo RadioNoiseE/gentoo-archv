@@ -1,0 +1,12 @@
+# Kernel Firmware, Utils, Source and Boot Splash
+
+sys-kernel/linux-firmware
+sys-firmware/sof-firmware
+
+sys-kernel/dracut
+
+sys-kernel/gentoo-sources
+
+sys-boot/grub
+sys-boot/plymouth
+sys-boot/plymouth-openrc-plugin

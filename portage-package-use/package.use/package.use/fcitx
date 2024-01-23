@@ -1,0 +1,3 @@
+app-i18n/fcitx enchant keyboard
+# required by app-18n/fcitx
+media-libs/libsdl2 gles2

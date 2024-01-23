@@ -1,0 +1,6 @@
+app-text/texlive X cjk png truetype xml context extra games graphics humanities luatex metapost music pstricks publishers science tex4ht texi2html xetex
+# required by dev-texlive/texlive-xetex-2021-r1::gentoo
+# required by dev-texlive/texlive-formatsextra-2021::gentoo
+# required by app-text/texlive-2021-r1::gentoo[extra,xml]
+# required by @typset (argument)
+>=app-text/texlive-core-2021-r7 xetex

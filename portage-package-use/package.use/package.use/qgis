@@ -1,0 +1,5 @@
+# required by sci-geosciences/qgis-3.28.10::gentoo
+# required by @applic
+# required by @selected
+# required by @world (argument)
+>=sci-libs/gdal-3.7.0 geos

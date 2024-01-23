@@ -1,0 +1,14 @@
+# Misc Tools For Misc Use
+
+sys-process/htop
+app-misc/neofetch
+
+sys-apps/rename
+sys-apps/fd
+sys-apps/ripgrep
+
+app-i18n/opencc
+dev-util/ctags
+
+sys-power/acpilight
+net-misc/chrony

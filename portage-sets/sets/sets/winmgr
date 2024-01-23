@@ -1,0 +1,17 @@
+# Windows Manager Requirements: Backend, Frontend, and Enhancements
+
+media-libs/vulkan-loader
+
+dev-libs/wayland
+x11-base/xwayland
+
+gui-wm/sway
+gui-apps/waybar
+gui-apps/swaybg
+gui-apps/swayidle
+gui-apps/swaylock
+gui-apps/mako
+gui-apps/grim
+gui-apps/foot
+gui-apps/wl-clipboard
+dev-libs/bemenu
