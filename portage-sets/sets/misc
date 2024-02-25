@@ -1,14 +1,14 @@
-# System Usage Monitor
-sys-process/htop
+# Misc Tools For Misc Use
 
-# System Info Displayer
+sys-process/htop
 app-misc/neofetch
 
-# File Batch Renamer
 sys-apps/rename
-
-# File Finder
 sys-apps/fd
-
-# Word Greper
 sys-apps/ripgrep
+
+app-i18n/opencc
+dev-util/ctags
+
+sys-power/acpilight
+net-misc/chrony

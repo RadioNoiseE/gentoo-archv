@@ -1,1 +1,1 @@
-app-emulation/qemu opengl alsa spice usbredir pulseaudio virgl sdl sdl-images
+app-emulation/qemu spice

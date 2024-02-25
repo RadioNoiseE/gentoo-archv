@@ -1,1 +1,1 @@
-app-editors/emacs X alsa cairo dbus gif gmp gpm gtk gui inotify jpeg lcms png sound ssl svg threads tiff xft xpm zlib gzip-el harfbuzz imagemagick json tree-sitter libxml
+app-editors/emacs harfbuzz tree-sitter imagemagick

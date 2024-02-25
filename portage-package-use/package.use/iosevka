@@ -1,4 +1,1 @@
 media-fonts/iosevka iosevka iosevka-aile iosevka-etoile iosevka-curly iosevka-curly-slab iosevka-slab
-# required by mail-client/thunderbird-115.5.0::gentoo[system-libvpx]
-# required by thunderbird (argument)
->=media-libs/libvpx-1.13.1 postproc

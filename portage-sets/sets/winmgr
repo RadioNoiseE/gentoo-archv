@@ -1,30 +1,17 @@
-# X-Org Daemon
-x11-base/xorg-server
+# Windows Manager Requirements: Backend, Frontend, and Enhancements
 
-# Intel DDX (Legacy)
-x11-drivers/xf86-video-intel
+media-libs/vulkan-loader
 
-# XMonad Windows Manager
-x11-wm/xmonad
-x11-wm/xmonad-contrib
+dev-libs/wayland
+x11-base/xwayland
 
-# Screenshot
-media-gfx/scrot
-
-# Application Launcher and More
-x11-misc/rofi
-
-# Status Bar
-x11-misc/xmobar
-
-# Compositor
-x11-misc/picom
-
-# Lock Screen
-x11-misc/slock
-
-# Terminal Default
-x11-terms/alacritty
-
-# Background Image
-media-gfx/feh
+gui-wm/sway
+gui-apps/waybar
+gui-apps/swaybg
+gui-apps/swayidle
+gui-apps/swaylock
+gui-apps/mako
+gui-apps/grim
+gui-apps/foot
+gui-apps/wl-clipboard
+dev-libs/bemenu

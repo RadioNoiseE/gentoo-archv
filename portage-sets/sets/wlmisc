@@ -1,0 +1,14 @@
+# Miscs For Wireless Lan [Front|Back]end, Bluetooth, Proxy, and Data Transfering
+
+net-wireless/iwd
+
+net-wireless/bluez
+
+net-vpn/openconnect
+
+net-misc/curl
+net-misc/wget
+net-misc/aria2
+dev-vcs/git
+
+net-misc/yt-dlp

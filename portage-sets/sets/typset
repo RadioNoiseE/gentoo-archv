@@ -1,11 +1,6 @@
-# TeXLive Distribution
-app-text/texlive
+# Tools For Typesetting
 
-# Document Format and Markup Language Conversation
+# app-text/texlive
+# dev-perl/libwww-perl
+
 app-text/pandoc
-
-# XML Processing
-dev-libs/libxslt
-
-# Font Creater
-media-gfx/fontforge

@@ -1,0 +1,4 @@
+gui-apps/waybar network wifi
+# required by gui-wm/sway-1.8.1::gentoo[wallpapers]
+# required by @winmgr (argument)
+>=gui-apps/swaybg-1.2.0 gdk-pixbuf

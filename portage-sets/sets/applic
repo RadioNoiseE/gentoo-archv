@@ -1,0 +1,15 @@
+# Applications Goes Here
+
+media-video/mpv
+media-gfx/imv
+
+mail-client/thunderbird
+www-client/firefox
+
+net-analyzer/wireshark
+
+sci-geosciences/qgis
+
+media-gfx/fontforge
+
+app-emulation/wine-proton

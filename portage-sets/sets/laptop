@@ -1,8 +1,4 @@
-# TLP
-sys-power/tlp
+# Gentoo Optimized for Laptop
 
-# Linux Thernal Daemon
 sys-power/thermald
-
-# Laptop Mode Tools
-app-laptop/laptop-mode-tools
+sys-power/tlp
