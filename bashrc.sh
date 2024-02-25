@@ -1,19 +1,26 @@
 # /etc/skel/.bashrc
-#
-# This file is sourced by all *interactive* bash shells on startup,
-# including some apparently interactive shells such as scp and rcp
-# that can't tolerate any output.  So make sure this doesn't display
-# anything or bad things will happen !
 
+export WLR_RENDERER=gles2 # swaybg WL_DISPLAY_ROUNDTRIP failed for vulkan
+export GTK_IM_MODULE=fcitx # emacs GDK_IS_WAYLAND_DISPLAY assertion fail for wayland
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
 
-# Test for an interactive shell.  There is no need to set anything
-# past this point for scp and rcp, and it's important to refrain from
-# outputting anything in those cases.
-if [[ $- != *i* ]] ; then
-	# Shell is non-interactive.  Be done now!
-	return
+if [ -z "${WAYLAND_DISPLAY}" ] && [ ${XDG_VTNR} -eq 1 ]; then
+    clear
+  # uname -a
+    dbus-run-session sway &>/dev/null
 fi
 
+# complete -cf doas
 
-# Put your fun stuff here.
-complete -cf doas
+PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH; export PATH
+MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH; export MANPATH
+INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:$INFOPATH; export INFOPATH
+
+alias proxy="doas anyconnect ~/.anyconnect"
+
+# opam configuration
+test -r /home/rne/.opam/opam-init/init.sh && . /home/rne/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+
+# set fish as default user shell
+[ -x /bin/fish ] && SHELL=/bin/fish exec fish
