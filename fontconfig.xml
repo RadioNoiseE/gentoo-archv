@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Noto Sans CJK JP</family>
+      <family>Noto Sans CJK TC</family>
+      <family>Noto Sans CJK SC</family>
+      <family>AppleGothic</family>
+      <family>.Aqua Kana</family>
+    </prefer>
+    <default>
+      <family>Apple Symbol</family>
+    </default>
+  </alias>
+  <alias>
+    <family>serif</family>
+    <prefer>
+      <family>Noto Serif CJK JP</family>
+      <family>Noto Serif CJK TC</family>
+      <family>Noto Serif CJK SC</family>
+      <family>AppleMyungjo</family>
+    </prefer>
+    <default>
+      <family>Apple Symbol</family>
+    </default>
+  </alias>
+  <alias>
+    <family>monospace</family>
+    <prefer>
+      <family>Source Code Pro</family>
+      <family>Iosevka Curly Slab</family>
+      <family>Noto Sans CJK JP</family>
+      <family>Noto Sans CJK TC</family>
+      <family>Noto Sans CJK SC</family>
+      <family>AppleGothic</family>
+      <family>.Aqua Kana</family>
+    </prefer>
+    <default>
+      <family>Apple Symbol</family>
+    </default>
+  </alias>
+</fontconfig>
