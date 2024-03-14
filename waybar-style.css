@@ -1,6 +1,6 @@
 * {
-    font-family: FontAwesome, Iosevka, Noto CJK;
-    font-size: 15.8px;
+    font-family: "Iosevka Term Curly", "Noto Sans CJK JP", "3270 Nerd Font";
+    font-size: 15.6px;
 }
 
 window#waybar {
@@ -71,22 +71,9 @@ button:hover {
 #battery,
 #cpu,
 #memory,
-#disk,
-#temperature,
 #backlight,
 #network,
 #pulseaudio,
-#wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#mpd {
-    padding: 0 10px;
-    color: #ffffff;
-}
-
 #window,
 #workspaces {
     margin: 0 8px;
@@ -144,10 +131,6 @@ label:focus {
     background-color: transparent;
 }
 
-#disk {
-    background-color: transparent;
-}
-
 #backlight {
     background-color: transparent;
 }
@@ -157,7 +140,7 @@ label:focus {
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background-color: #90b1b1;
 }
 
 #pulseaudio {
@@ -166,108 +149,6 @@ label:focus {
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #ffffff;
-}
-
-#wireplumber {
-    background-color: transparent;
-    color: #ffffff;
-}
-
-#wireplumber.muted {
     background-color: #f53c3c;
-}
-
-#custom-media {
-    background-color: transparent;
     color: #ffffff;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: transparent;
-}
-
-#custom-media.custom-vlc {
-    background-color: transparent;
-}
-
-#temperature {
-    background-color: transparent;
-}
-
-#temperature.critical {
-    background-color: #eb4d4b;
-}
-
-#tray {
-    background-color: transparent;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
-}
-
-#idle_inhibitor {
-    background-color: transparent;
-}
-
-#idle_inhibitor.activated {
-    background-color: transparent;
-    color: #ffffff;
-}
-
-#mpd {
-    background-color: transparent;
-    color: #ffffff;
-}
-
-#mpd.disconnected {
-    background-color: #f53c3c;
-}
-
-#mpd.stopped {
-    background-color: #90b1b1;
-}
-
-#mpd.paused {
-    background-color: #51a37a;
-}
-
-#language {
-    background: transparent;
-    color: #ffffff;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state {
-    background: transparent;
-    color: #ffffff;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state > label {
-    padding: 0 5px;
-}
-
-#keyboard-state > label.locked {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad.empty {
-  	background-color: transparent;
 }
