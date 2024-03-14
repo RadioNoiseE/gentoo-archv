@@ -4,6 +4,7 @@
   <alias>
     <family>sans-serif</family>
     <prefer>
+      <family>Liberation Sans</family>
       <family>Noto Sans CJK JP</family>
       <family>Noto Sans CJK TC</family>
       <family>Noto Sans CJK SC</family>
@@ -17,6 +18,7 @@
   <alias>
     <family>serif</family>
     <prefer>
+      <family>Liberation Serif</family>
       <family>Noto Serif CJK JP</family>
       <family>Noto Serif CJK TC</family>
       <family>Noto Serif CJK SC</family>
@@ -34,6 +36,7 @@
       <family>Noto Sans CJK JP</family>
       <family>Noto Sans CJK TC</family>
       <family>Noto Sans CJK SC</family>
+      <family>3270 Nerd Font</family>
       <family>AppleGothic</family>
       <family>.Aqua Kana</family>
     </prefer>
