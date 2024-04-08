@@ -4,8 +4,8 @@
 }
 
 window#waybar {
-    background-color: #55709E;
-    border-bottom: 3px solid rgba(100, 114, 125, 0.4);
+    background-color: rgba(58, 63, 75, 0.7); /* Dark grey with transparency */
+    border-bottom: 3px solid rgba(100, 114, 125, 0.2);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -15,20 +15,19 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-
 window#waybar.empty {
-    background-color: #55709E;
+    background-color: rgba(58, 63, 75, 0.6);
 }
 window#waybar.solo {
-    background-color: #55709E;
+    background-color: rgba(58, 63, 75, 0.6);
 }
 
 window#waybar.termite {
-    background-color: #55709E;
+    background-color: rgba(58, 63, 75, 0.6);
 }
 
 window#waybar.chromium {
-    background-color: #55709E;
+    background-color: rgba(58, 63, 75, 0.6);
     border: none;
 }
 
@@ -54,16 +53,16 @@ button:hover {
 }
 
 #workspaces button.focused {
-    background-color: #478993;
+    background-color: rgba(124, 111, 100, 0.7); /* A muted complementary brown */
     box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #d67e5d; /* A warm, muted orange */
 }
 
 #mode {
-    background-color: #64727D;
+    background-color: rgba(58, 63, 75, 0.6); /* A cool, muted blue */
     border-bottom: 3px solid #ffffff;
 }
 
@@ -97,14 +96,14 @@ button:hover {
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
+    color: #a0d995; /* A soft, muted green */
     background-color: transparent;
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #f53c3c;
+        color: #ffffff;
     }
 }
 
